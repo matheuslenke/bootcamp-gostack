@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background-color: #4A90E2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 50 50px;
+  width: 95%;
+}
+nav img {
+  height: 30px;
+}
+nav > div {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+}
+
+nav > div > span {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > div i {
+  margin-left: 8px;
+}
+
+.postlist {
+  width: 700px;
+  margin: 0 auto 20px;
+}
+
+.postItem {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+  color: #3e3e3e;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+.post-header .details {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: #9a9a9a;
+  line-height: 14px;
+}
+
+.post-header .details span:first-child {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.753);
+  padding-top: 10px;
+}
+
+.line-divisor {
+  padding-top: 10px;
+}
+
+.comment {
+  padding-top: 15px;
+  display:flex;
+  align-items: center;
+}
+.comment-header {
+  padding-right: 15px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+}
+
+.post-comments {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.comment p {
+  border-radius: 20px;
+  background: #eeeeee;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.comment span {
+  font-weight: bold;
+  margin-right: 6px;
+}
